@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>css 예제</title>
+        <style>
+            body {
+            text-align: center;
+            font-family: Arial;
+           
+         }   
+        </style>
+    </head>
+    <body>
+        <input id="night_day" type="button" value="night" onclick="
+        if(document.querySelector('#night_day').value === 'night'){
+          document.querySelector('body').style.backgroundColor = 'black';
+          document.querySelector('body').style.color = 'white';
+          document.querySelector('#night_day').value = 'day';
+        } else {
+          document.querySelector('body').style.backgroundColor = 'white';
+          document.querySelector('body').style.color = 'black';
+          document.querySelector('#night_day').value = 'night';
+        }
+      ">
+        <h2><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">선택1</h2>
+        <h2><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">선택2</h2>
+        <input type="submit" value="Submit">
+    </body>
+</html>
