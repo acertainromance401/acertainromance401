@@ -14,7 +14,6 @@ Python 중심의 ML/딥러닝 실험, 데이터 파이프라인 구현, 오픈�
 - [🛠 기술 스택 (Tech Stack)](#-기술-스택-tech-stack)
 - [🎯 학습 목표 (Learning Goals)](#-학습-목표-learning-goals)
 - [📬 연락처 (Contact Info)](#-연락처-contact-info)
-- [📄 프로젝트 제안서](#-프로젝트-제안서)
 
 ## 🙋 본인 소개 (Who am I)
 - AI학과 재학 중
@@ -26,6 +25,8 @@ Python 중심의 ML/딥러닝 실험, 데이터 파이프라인 구현, 오픈�
 - Data Engineering
 - MLOps 기초 자동화
 - Open Source Collaboration
+- Affective Computing
+- Reinforce Learning
 
 ## 🛠 기술 스택 (Tech Stack)
 ### Languages & Libraries
@@ -46,19 +47,8 @@ Python 중심의 ML/딥러닝 실험, 데이터 파이프라인 구현, 오픈�
 
 ## 📬 연락처 (Contact Info)
 - GitHub: [acertainromance401](https://github.com/acertainromance401)
-- Email: your-email@example.com
+- Email: acertainromance401@gmail.com
+- Instagram: acertainromance401
 
-## 📄 프로젝트 제안서
-현재 저장소의 프로젝트 제안서 문서:
 
-➡️ [Project_Proposal.txt](Project_Proposal.txt)
-
-<details>
-<summary>요약 보기 (클릭)</summary>
-
-- 프로젝트명: **SentiVision(센티비젼)**
-- 목표: 사용자 그림의 색감 분석을 통한 감정 상태 분류
-- 핵심 기술: Saliency Map, KMeans, KNN, 피드백 기반 개선
-
-</details>
 
