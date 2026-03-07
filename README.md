@@ -50,5 +50,6 @@ Python 중심의 ML/딥러닝 실험, 데이터 파이프라인 구현, 오픈�
 - Email: acertainromance401@gmail.com
 - Instagram: acertainromance401
 
+(본 레퍼지토리 내용은 모두 AI로 작성하였음)
 
 
