@@ -2,7 +2,7 @@
 
 **AI와 데이터를 사용자가 매일 쓸 수 있는 네이티브 제품으로 구현합니다.**
 
-온디바이스 LLM·RAG, Computer Vision·Machine Learning, Adaptive Game AI를 Swift와 Python으로 구현하고, 제품 기획부터 테스트·배포·App Store 출시까지 연결해 왔습니다.
+온디바이스 LLM·RAG, Computer Vision·Machine Learning, Adaptive Game AI를 Swift와 Python으로 구현하고 제품 기획부터 테스트·배포·App Store 출시까지 연결해 왔습니다. 궁금한 기술을 직접 만들고, 결과와 실패를 분석해 더 나은 시스템으로 발전시키는 개발자입니다.
 
 [![GitHub](https://img.shields.io/badge/GitHub-acertainromance401-181717?style=flat-square&logo=github)](https://github.com/acertainromance401)
 [![Email](https://img.shields.io/badge/Email-acertainromance401%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:acertainromance401@gmail.com)
@@ -18,11 +18,10 @@
 ## About Me
 
 - AI·인공지능 전공 학부 4학년으로, **2027년 2월 졸업 예정**입니다.
-- 작은 모델과 제한된 데이터를 실제 사용자 흐름에 연결하는 **Applied AI와 온디바이스 제품 개발**에 집중합니다.
-- SwiftUI, Vision, Natural Language, PencilKit, SceneKit, CloudKit 등 Apple 플랫폼 기술로 AI 기능을 네이티브 경험에 통합했습니다.
-- Python과 scikit-learn으로 데이터 품질, 특징 추출, 모델 후보와 평가 방식을 검증한 뒤 제품에 필요한 규칙을 Swift로 옮깁니다.
-- FastAPI·Node.js 프로토타입, Docker, GitHub Actions, AWS 배포 정의를 통해 모델 밖의 API·관측성·릴리스 경로도 다뤘습니다.
-- 구현·프로토타입·백로그를 구분하고, 정확도·보안·확장성의 한계를 문서화하는 개발 방식을 지향합니다.
+- **Product Focus:** 작은 모델과 제한된 데이터를 실제 사용자 흐름에 연결하는 Applied AI와 온디바이스 제품 개발에 집중합니다.
+- **Native Integration:** SwiftUI와 Apple 플랫폼 프레임워크로 AI·데이터 기능을 앱과 게임의 완결된 경험으로 구현합니다.
+- **Evidence-driven ML:** Python으로 데이터 품질과 모델 후보를 검증하고, 측정 결과와 한계를 제품 설계에 반영합니다.
+- **System Ownership:** API·저장·관측성·CI/CD·배포까지 모델 밖의 경로를 함께 설계하며 구현·프로토타입·백로그를 구분합니다.
 
 - **Primary Career Focus:** AI/ML Engineer · On-device AI Engineer · AI Product Engineer · iOS Engineer · AI Application Developer
 - **Specialized Interests:** LLM/RAG · Computer Vision · NLP/Information Retrieval · Game AI/Adaptive NPC · ML Systems
@@ -177,17 +176,20 @@
 
 ## Engineering Approach
 
-저장소 전반에서 반복되는 주제는 **제한된 모델·데이터를 신뢰할 수 있는 사용자 경험으로 바꾸는 일**입니다. STACK112에서는 작은 LLM을 검색·규칙·폴백으로 보완했고, SentiVision에서는 작은 데이터의 계보와 평가 한계를 제품 언어에 반영했습니다. RIVAL에서는 통계 기반 적응 로직을 테스트 가능한 전투 엔진에 넣었고, WAVY에서는 데이터 무결성과 실패 상태를 제품 규칙으로 다뤘습니다.
+저장소 전반의 공통 주제는 **제한된 모델과 데이터를 신뢰할 수 있는 사용자 경험으로 바꾸는 일**입니다. STACK112에서는 작은 LLM을 검색·규칙·폴백으로 보완했고, SentiVision에서는 데이터 계보와 평가 한계를 제품 언어에 반영했습니다. RIVAL에서는 적응 로직을 테스트 가능한 전투 엔진에 넣었고, WAVY에서는 데이터 무결성과 실패 상태를 제품 규칙으로 다뤘습니다.
 
-이를 통해 특정 모델 하나보다 **데이터 경계, 설명 가능성, 네이티브 통합, 성능, 개인정보, 운영과 전달 과정 전체**를 함께 설계하는 엔지니어를 지향합니다.
+### How I Build
 
-## Development Philosophy
+`Question → Hypothesis → Compare Alternatives → Small Experiment → Working MVP → Failure Analysis → Redesign → Product`
 
-- **Theory to Product:** 알고리즘을 이해하는 데서 끝내지 않고 실제 사용 가능한 기능으로 구현합니다.
-- **End-to-End Ownership:** 문제 정의, 데이터 처리, 모델 실험, 애플리케이션 통합, 테스트와 배포까지 전체 흐름을 직접 설계합니다.
-- **Evidence over Claims:** 구현·프로토타입·계획을 구분하고 성능 수치와 모델 한계를 검증 조건과 함께 기록합니다.
-- **Local-first by Design:** 지연, 개인정보와 운영 비용에 이점이 있을 때 온디바이스 처리를 우선하고 서버 경로는 제품 요구로 판단합니다.
-- **Replaceable Decisions:** 현재 기술 선택의 이유와 교체 조건을 남겨 더 나은 데이터와 사용자 증거가 생기면 구조를 바꿀 수 있게 합니다.
+- **Question the first answer:** 적용 조건·예외·반대 사례를 확인하고 문제를 검증 가능한 가설로 바꿉니다.
+- **Prove the smallest useful version:** 사용자 가치를 한 문장으로 정의하고 필요한 만큼의 복잡성으로 동작하는 MVP를 먼저 만듭니다.
+- **Understand and control the core:** 핵심 데이터·알고리즘·상태 변화와 실패 조건을 이해하고 필요하면 직접 구현합니다.
+- **Compare with evidence:** 시간·비용·성능·안정성·유지보수성을 비교하고, 확인된 사실과 해석을 구분해 결정합니다.
+- **Debug causes, not symptoms:** 재현 조건과 책임 경계를 찾아 수정하고 실패를 다음 설계의 근거로 사용합니다.
+- **Design the whole path:** 전처리부터 모델, UI, 저장, 온디바이스 또는 서버, 개인정보, 운영과 배포까지 하나의 시스템으로 연결합니다.
+
+기술 선택의 이유와 한계, 교체 조건을 기록하고 더 나은 데이터와 사용자 증거가 생기면 기존 계획도 수정합니다.
 
 ## GitHub Stats
 
@@ -209,4 +211,4 @@
 
 ---
 
-**Building intelligent systems that move from AI research to real games and products.**
+**Understand the technology. Build the system. Measure the result. Deliver the product.**
